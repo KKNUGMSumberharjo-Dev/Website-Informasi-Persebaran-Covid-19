@@ -83,22 +83,22 @@ function showDataIndonesia() {
 
     const renderDataIndonesiaSembuh = (valueSembuh) => {
         const kasusSembuhIndonesiaElement = document.querySelector("#total_kasus_sembuh_indonesia");
-        kasusSembuhIndonesiaElement.innerHTML = `${valueSembuh.sembuh}<br/>`;
+        kasusSembuhIndonesiaElement.innerHTML = `${parseFloat(valueSembuh.sembuh).toLocaleString('en')}<br/>`;
     }
 
     const renderDataIndonesiaPositif = (valuePositif) => {
         const kasusPositifIndonesiaElement = document.querySelector("#total_kasus_positif_indonesia");
-        kasusPositifIndonesiaElement.innerHTML = `${valuePositif.positif}<br/>`;
+        kasusPositifIndonesiaElement.innerHTML = `${parseFloat(valuePositif.positif).toLocaleString('en')}<br/>`;
     }
 
     const renderDataIndonesiaMeninggal = (valueMeninggal) => {
         const kasusMeninggalIndonesiaElement = document.querySelector("#total_kasus_meninggal_indonesia");
-        kasusMeninggalIndonesiaElement.innerHTML = `${valueMeninggal.meninggal}<br/>`;
+        kasusMeninggalIndonesiaElement.innerHTML = `${parseFloat(valueMeninggal.meninggal).toLocaleString('en')}<br/>`;
     }
 
     const renderDataIndonesiaDirawat = (valueDirawat) => {
         const kasusDirawatIndonesiaElement = document.querySelector("#total_kasus_dirawat_indonesia");
-        kasusDirawatIndonesiaElement.innerHTML = `${valueDirawat.dirawat}<br/>`;
+        kasusDirawatIndonesiaElement.innerHTML = `${parseFloat(valueDirawat.dirawat).toLocaleString('en')}<br/>`;
     }
 
     const showResponseMessage = (message = "Check your internet connection") => {
@@ -159,9 +159,9 @@ function showDataProvinsi() {
             <tr>
                 <td>${idNumber}</td>
                 <td>${caseData.Provinsi}</td>
-                <td>${caseData.Kasus_Semb}</td>
-                <td>${caseData.Kasus_Posi}</td>
-                <td>${caseData.Kasus_Meni}</td>
+                <td>${parseFloat(caseData.Kasus_Semb).toLocaleString('en')}</td>
+                <td>${parseFloat(caseData.Kasus_Posi).toLocaleString('en')}</td>
+                <td>${parseFloat(caseData.Kasus_Meni).toLocaleString('en')}</td>
             </tr>
             `;
             idNumber++;
