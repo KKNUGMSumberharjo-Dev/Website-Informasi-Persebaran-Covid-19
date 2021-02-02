@@ -1,0 +1,1028 @@
+/*
+	@name website_informasi_persebaran_covid_19
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_desktop___1_ek1 {
+	top: 0px;
+	left: -40px;
+	width: 1440px;
+	height: 2114px;
+}
+
+#_bg__desktop___1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 2114px;
+	background:rgba(206,212,218,1);
+}
+
+#footer {
+	top: 1897px;
+	left: 0px;
+	width: 1520px;
+	height: 217px;
+}
+
+#footer_container {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 217px;
+	background:rgba(255,255,255,1);
+}
+
+#footer_content {
+	top: 14px;
+	left: 519px;
+	width: 575px;
+	height: 189px;
+}
+
+#made_by_kkn_ppm_ugm_2020_periode_4_desa_sumberharjo {
+	top: 145px;
+	left: 58px;
+	width: 375px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#logos_footer {
+	top: 74px;
+	left: 149px;
+	width: 184px;
+	height: 50px;
+}
+
+#logo_kkn_ppm_ugm {
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_ugm {
+	top: 0px;
+	left: 67px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_kkn_sumberharjo {
+	top: 0px;
+	left: 134px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#find_us_on {
+	top: 0px;
+	left: 209px;
+	width: 72px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#icons_made_by_freepik_from_www_flaticon_com {
+	top: 173px;
+	left: 96px;
+	width: 296px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#acc {
+	top: 31px;
+	left: 0px;
+	width: 575px;
+	height: 28px;
+}
+#instagram_acc {
+	top: 0px;
+	left: 0px;
+	width: 222px;
+	height: 28px;
+}
+
+#instagram___kkn_sumberharjo {
+	top: 6px;
+	left: 32px;
+	width: 197px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#instagram_1 {
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+}
+
+#youtube_acc {
+	top: 0px;
+	left: 271px;
+	width: 304px;
+	height: 28px;
+}
+
+#youtube__kkn_ppm_ugm_desa_sumberharjo {
+	top: 6px;
+	left: 32px;
+	width: 279px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#youtube_1 {
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+}
+
+#section_content {
+	top: 117px;
+	left: 203px;
+	width: 1114px;
+	height: 1720px;
+}
+#persebaran_kasus_provinsi {
+	top: 777px;
+	left: 0px;
+	width: 1114px;
+	height: 943px;
+}
+
+#persebaran_kasus_provinsi_card {
+	top: 0px;
+	left: 0px;
+	width: 1114px;
+	height: 973px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#persebaran_kasus_covid_19_di_provinsi_provinsi_indonesia {
+	top: 24px;
+	left: 24px;
+	width: 532px;
+	height: 37px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 20px;
+	color:#000000;
+}
+
+#table_kasus_provinsi {
+	top: 71px;
+	left: 24px;
+	font-size: 12px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 5px;
+	font-family: Roboto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#header_col_1 {
+	box-sizing: border-box;
+	width: 26px;
+}
+
+#header_col_2 {
+	box-sizing: border-box;
+	width: 164px;
+}
+
+#header_col_3 {
+	box-sizing: border-box;
+	width: 292px;
+}
+
+#header_col_4 {
+	box-sizing: border-box;
+	width: 292px;
+}
+
+#header_col_5 {
+	box-sizing: border-box;
+	width: 292px;
+}
+
+#data_kasus_covid_indonesia {
+	top: 571px;
+	left: 0px;
+	width: 1114px;
+	height: 175.8px;
+}
+#kasus_dirawat_indonesia {
+	top: 59px;
+	left: 855px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_dirawat_indonesia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_dirawat_indonesia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_dirawat_indonesia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_dirawat_indonesia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_dirawat {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 31.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#hospital_bed_hitam__dirawat__freepik_1 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#kasus_meninggal_indonesia {
+	top: 59px;
+	left: 570px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_meninggal_indonesia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_meninggal_indonesia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_meninggal_indonesia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang_ek1 {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_meninggal_indonesia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_meninggal {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 31.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#virus__meninggal__freepik_1 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#kasus_positif_indonesia {
+	top: 59px;
+	left: 285px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_positif_indonesia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_positif_indonesia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_positif_indonesia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang_ek2 {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_positif_indonesia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_positif {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 51.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#safety_suit__positif__freepik_2 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#kasus_sembuh_indonesia {
+	top: 59px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_sembuh_indonesia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_sembuh_indonesia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_sembuh_indonesia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang_ek3 {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_sembuh_indonesia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_sembuh {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#stayhome__sembuh__freepik_2 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#data_kasus_covid_19_di_indonesia {
+	top: 0px;
+	left: 333px;
+	width: 469px;
+	height: 56px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 30px;
+	color:#000000;
+}
+
+#data_kasus_covid_dunia {
+	top: 365px;
+	left: 0px;
+	width: 1114px;
+	height: 175.8px;
+}
+#kasus_meninggal_dunia {
+	top: 59px;
+	left: 855px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_meninggal_dunia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	background:rgba(220,53,69,1);
+}
+
+#kasus_meninggal_dunia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_meninggal_dunia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang_ek4 {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_meninggal_dunia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_meninggal_dunia_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 31.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#virus__meninggal__freepik_2 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#kasus_positif_dunia {
+	top: 59px;
+	left: 427px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_positif_dunia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	background:rgba(255,193,7,1);
+}
+
+#kasus_positif_dunia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_positif_dunia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang_ek5 {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_positif_dunia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_positif_dunia_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 51.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#safety_suit__positif__freepik_1 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#kasus_sembuh_dunia {
+	top: 59px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+}
+
+#kasus_sembuh_dunia_container {
+	top: 0px;
+	left: 0px;
+	width: 259px;
+	height: 116.8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.25);
+	background:rgba(40,167,69,1);
+}
+
+#kasus_sembuh_dunia_content {
+	top: 28px;
+	left: 24px;
+	width: 211px;
+	height: 56px;
+}
+#kasus_sembuh_dunia_text {
+	top: 0px;
+	left: 74px;
+	width: 137px;
+	height: 56px;
+}
+
+#orang_ek6 {
+	top: 40px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#total_kasus_sembuh_dunia {
+	top: 20px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#kasus_sembuh_dunia_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 27.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 17px;
+	text-align: left;
+	line-height: 17px;
+	color:#FFFFFF;
+}
+
+
+#stayhome__sembuh__freepik_1 {
+	top: 5px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#data_kasus_covid_19_di_dunia {
+	top: 0px;
+	left: 360px;
+	width: 415px;
+	height: 56px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 30px;
+	color:#000000;
+}
+
+
+#update_terakhir__2021_01_29t08_50_37_000z {
+	top: 319px;
+	left: 421px;
+	width: 278px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#judul_1 {
+	top: 0px;
+	left: 0px;
+	width: 1114px;
+	height: 295.43px;
+}
+
+#header {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 77.2px;
+}
+
+#header_container {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 77.2px;
+	background:rgba(255,255,255,1);
+}
+
+#header_content {
+	left: 40px;
+}
+
+#logos_header {
+	top: 14px;
+	left: 15px;
+	width: 184px;
+	height: 50px;
+}
+
+#logo_kkn_ppm_ugm_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_ugm_ek1 {
+	top: 0px;
+	left: 67px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_kkn_sumberharjo_ek1 {
+	top: 0px;
+	left: 134px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#kkn_ppm_ugm_2020_periode_4_desa_sumberharjo {
+	top: 15px;
+	left: 216px;
+	width: 139px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#nav {
+	top: 19px;
+	left: 1043px;
+	width: 318px;
+	height: 40px;
+}
+
+#nav a {
+	text-decoration: none;
+	color:#000000;
+}
+
+#nav a:hover {
+	opacity: 0.5;
+}
+
+#kesaksian_penyintas_covid_19 {
+	top: 12px;
+	left: 95px;
+	width: 230px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#home {
+	top: 12px;
+	left: 0px;
+	width: 47px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#line_1 {
+	top: 0px;
+	left: 68px;
+	width: 1px;
+	height: 40px;
+}
+
+
+
+/* Add your custom CSS here */
