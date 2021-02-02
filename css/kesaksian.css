@@ -1,0 +1,623 @@
+/*
+	@name website_informasi_persebaran_covid_19
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_desktop___1_ek1 {
+	top: 0px;
+	left: -40px;
+	width: 1440px;
+	height: 3670px;
+}
+
+#_bg__desktop___1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 3670px;
+	background:rgba(206,212,218,1);
+}
+
+#header {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 77.2px;
+}
+
+#header_container {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 77.2px;
+	background:rgba(255,255,255,1);
+}
+
+#header_content {
+	left: 40px;
+}
+
+#logos_header {
+	top: 14px;
+	left: 15px;
+	width: 184px;
+	height: 50px;
+}
+
+#logo_kkn_ppm_ugm {
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_ugm {
+	top: 0px;
+	left: 67px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_kkn_sumberharjo {
+	top: 0px;
+	left: 134px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#kkn_ppm_ugm_2020_periode_4_desa_sumberharjo {
+	top: 15px;
+	left: 216px;
+	width: 139px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#nav {
+	top: 19px;
+	left: 1043px;
+	width: 318px;
+	height: 40px;
+}
+
+#nav a {
+	text-decoration: none;
+	color:#000000;
+}
+
+#nav a:hover {
+	opacity: 0.5;
+}
+
+#kesaksian_penyintas_covid_19 {
+	top: 12px;
+	left: 95px;
+	width: 230px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#home {
+	top: 12px;
+	left: 0px;
+	width: 47px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#line_1 {
+	top: 0px;
+	left: 68px;
+	width: 1px;
+	height: 40px;
+}
+
+#section_content {
+	left: 40px;
+}
+
+#video_1 {
+	top: 148px;
+	left: 82px;
+	width: 955px;
+	height: 590px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#rectangle_3 {
+	top: 0px;
+	left: 0px;
+	width: 955px;
+	height: 590px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(255,255,255,1);
+}
+
+#group_2 {
+	top: 30px;
+	left: 25px;
+	width: 905px;
+	height: 530px;
+}
+
+#sumber__harvard_university___2019__august_28___soft_robotic_gripper_for_jellyfish__video___youtube__https___www_youtube_com_watch_v_gurowtyfxms {
+	top: 518px;
+	left: 0px;
+	width: 794px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 12px;
+	text-align: left;
+	line-height: 12px;
+	color:#000000;
+}
+
+#group_1 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#rectangle_2 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 506px;
+	background:rgba(0,0,0,0.5);
+}
+
+
+#image_1 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#video_2 {
+	top: 809px;
+	left: 82px;
+	width: 955px;
+	height: 590px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#rectangle_3_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 955px;
+	height: 590px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(255,255,255,1);
+}
+
+#group_2_ek1 {
+	top: 30px;
+	left: 25px;
+	width: 905px;
+	height: 530px;
+}
+
+#sumber__harvard_university___2019__august_28___soft_robotic_gripper_for_jellyfish__video___youtube__https___www_youtube_com_watch_v_gurowtyfxms_ek1 {
+	top: 518px;
+	left: 0px;
+	width: 794px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 12px;
+	text-align: left;
+	line-height: 12px;
+	color:#000000;
+}
+
+#group_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#rectangle_2_ek1 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 506px;
+	background:rgba(0,0,0,0.5);
+}
+
+
+#image_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#video_3 {
+	top: 1470px;
+	left: 82px;
+	width: 955px;
+	height: 590px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#rectangle_3_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 955px;
+	height: 590px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(255,255,255,1);
+}
+
+#group_2_ek2 {
+	top: 30px;
+	left: 25px;
+	width: 905px;
+	height: 530px;
+}
+
+#sumber__harvard_university___2019__august_28___soft_robotic_gripper_for_jellyfish__video___youtube__https___www_youtube_com_watch_v_gurowtyfxms_ek2 {
+	top: 518px;
+	left: 0px;
+	width: 794px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 12px;
+	text-align: left;
+	line-height: 12px;
+	color:#000000;
+}
+
+#group_1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#rectangle_2_ek2 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 506px;
+	background:rgba(0,0,0,0.5);
+}
+
+
+#image_1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#video_4 {
+	top: 2131px;
+	left: 82px;
+	width: 955px;
+	height: 590px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#rectangle_3_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 955px;
+	height: 590px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(255,255,255,1);
+}
+
+#group_2_ek3 {
+	top: 30px;
+	left: 25px;
+	width: 905px;
+	height: 530px;
+}
+
+#sumber__harvard_university___2019__august_28___soft_robotic_gripper_for_jellyfish__video___youtube__https___www_youtube_com_watch_v_gurowtyfxms_ek3 {
+	top: 518px;
+	left: 0px;
+	width: 794px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 12px;
+	text-align: left;
+	line-height: 12px;
+	color:#000000;
+}
+
+#group_1_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#rectangle_2_ek3 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 506px;
+	background:rgba(0,0,0,0.5);
+}
+
+
+#image_1_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#video_5 {
+	top: 2792px;
+	left: 82px;
+	width: 955px;
+	height: 590px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#rectangle_3_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 955px;
+	height: 590px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(255,255,255,1);
+}
+
+#group_2_ek4 {
+	top: 30px;
+	left: 25px;
+	width: 905px;
+	height: 530px;
+}
+
+#sumber__harvard_university___2019__august_28___soft_robotic_gripper_for_jellyfish__video___youtube__https___www_youtube_com_watch_v_gurowtyfxms_ek4 {
+	top: 518px;
+	left: 0px;
+	width: 794px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 12px;
+	text-align: left;
+	line-height: 12px;
+	color:#000000;
+}
+
+#group_1_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#rectangle_2_ek4 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 506px;
+	background:rgba(0,0,0,0.5);
+}
+
+
+#image_1_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 905px;
+	height: 506px;
+}
+
+#footer {
+	top: 3453px;
+	left: 0px;
+	width: 1520px;
+	height: 217px;
+}
+
+#footer_container {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 217px;
+	background:rgba(255,255,255,1);
+}
+
+#footer_content {
+	left: 40px;
+}
+
+#made_by_kkn_ppm_ugm_2020_periode_4_desa_sumberharjo {
+	top: 159px;
+	left: 537px;
+	width: 375px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#logos_footer {
+	top: 88px;
+	left: 628px;
+	width: 184px;
+	height: 50px;
+}
+
+#logo_kkn_ppm_ugm_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_ugm_ek1 {
+	top: 0px;
+	left: 67px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#logo_kkn_sumberharjo_ek1 {
+	top: 0px;
+	left: 134px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#find_us_on {
+	top: 14px;
+	left: 688px;
+	width: 72px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#icons_made_by_freepik_from_www_flaticon_com {
+	top: 187px;
+	left: 576px;
+	width: 296px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+#instagram_acc {
+	top: 45px;
+	left: 479px;
+	width: 222px;
+	height: 28px;
+}
+
+#instagram___kkn_sumberharjo {
+	top: 6px;
+	left: 32px;
+	width: 197px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#instagram_1 {
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+}
+
+#youtube_acc {
+	top: 45px;
+	left: 750px;
+	width: 304px;
+	height: 28px;
+}
+
+#youtube__kkn_ppm_ugm_desa_sumberharjo {
+	top: 6px;
+	left: 32px;
+	width: 279px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#000000;
+}
+
+
+#youtube_1 {
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+}
+
+
+
+/* Add your custom CSS here */
