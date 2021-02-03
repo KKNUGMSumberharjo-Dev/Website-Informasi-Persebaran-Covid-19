@@ -1,12 +1,12 @@
 //show data dunia
 function showDataDunia() {
     const getDataDuniaSembuh = () => {
-        fetch(`https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/sembuh`)
+        fetch(`https://covid19.mathdro.id/api`)
         .then(response => {
            return response.json();
         })
         .then(responseJson => {
-            renderDataDuniaSembuh(responseJson);
+            renderDataDuniaSembuh(responseJson.recovered);
         })
         .catch(error => {
             showResponseMessage(error);
@@ -15,16 +15,16 @@ function showDataDunia() {
 
     const renderDataDuniaSembuh = (valueSembuh) => {
         const kasusSembuhDuniaElement = document.querySelector("#total_kasus_sembuh_dunia");
-        kasusSembuhDuniaElement.innerHTML = `${valueSembuh.value}<br/>`;
+        kasusSembuhDuniaElement.innerHTML = `${parseFloat(valueSembuh.value).toLocaleString('en')}<br/>`;
     }
 
     const getDataDuniaPositif = () => {
-        fetch(`https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/positif`)
+        fetch(`https://covid19.mathdro.id/api`)
         .then(response => {
            return response.json();
         })
         .then(responseJson => {
-            renderDataDuniaPositif(responseJson);
+            renderDataDuniaPositif(responseJson.confirmed);
         })
         .catch(error => {
             showResponseMessage(error);
@@ -33,16 +33,16 @@ function showDataDunia() {
 
     const renderDataDuniaPositif = (valuePositif) => {
         const kasusPositifDuniaElement = document.querySelector("#total_kasus_positif_dunia");
-        kasusPositifDuniaElement.innerHTML = `${valuePositif.value}<br/>`;
+        kasusPositifDuniaElement.innerHTML = `${parseFloat(valuePositif.value).toLocaleString('en')}<br/>`;
     }
 
     const getDataDuniaMeninggal = () => {
-        fetch(`https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/meninggal`)
+        fetch(`https://covid19.mathdro.id/api`)
         .then(response => {
            return response.json();
         })
         .then(responseJson => {
-            renderDataDuniaMeninggal(responseJson);
+            renderDataDuniaMeninggal(responseJson.deaths);
         })
         .catch(error => {
             showResponseMessage(error);
@@ -51,7 +51,7 @@ function showDataDunia() {
 
     const renderDataDuniaMeninggal = (valueMeninggal) => {
         const kasusMeninggalDuniaElement = document.querySelector("#total_kasus_meninggal_dunia");
-        kasusMeninggalDuniaElement.innerHTML = `${valueMeninggal.value}<br/>`;
+        kasusMeninggalDuniaElement.innerHTML = `${parseFloat(valueMeninggal.value).toLocaleString('en')}<br/>`;
     }
 
     const showResponseMessage = (message = "Check your internet connection") => {

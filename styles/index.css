@@ -17,19 +17,19 @@ div { position: absolute; }
 	top: 0px;
 	left: -40px;
 	width: 1440px;
-	height: 2084px;
+	height: 2114px;
 }
 
 #_bg__desktop___1_ek2 {
 	top: 0px;
 	left: 0px;
 	width: 1520px;
-	height: 2084px;
+	height: 2114px;
 	background:rgba(206,212,218,1);
 }
 
 #footer {
-	top: 1867px;
+	top: 1897px;
 	left: 0px;
 	width: 1520px;
 	height: 217px;
@@ -200,7 +200,7 @@ div { position: absolute; }
 	top: 0px;
 	left: 0px;
 	width: 1114px;
-	height: 943px;
+	height: 973px;
 	-ms-border-radius: 8px;
 	-o-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -255,22 +255,22 @@ table {
 
 #header_col_2 {
 	box-sizing: border-box;
-	width: 164px;
+	width: 167px;
 }
 
 #header_col_3 {
 	box-sizing: border-box;
-	width: 292px;
+	width: 291px;
 }
 
 #header_col_4 {
 	box-sizing: border-box;
-	width: 292px;
+	width: 291px;
 }
 
 #header_col_5 {
 	box-sizing: border-box;
-	width: 292px;
+	width: 291px;
 }
 
 #data_kasus_covid_indonesia {
